@@ -1,0 +1,74 @@
+/**
+ * @name Absolute Black
+ * @author Diramix
+ * @description Absolute Black theme for Discord
+ * @version 1.0.0
+ * @invite ky6bcdy7KA
+ * @authorId 710580442180485120
+ * @source https://github.com/Diramix/Discord-Absolute-Black
+*/
+
+/*Black in variables*/
+:root {
+    /*Black colors*/
+    --background-primary: #000 !important;
+    --bg-surface-overlay: #000 !important;
+    --bg-overlay-chat: #000 !important;
+    --bg-overlay-floating: #000 !important;
+    --background-surface-high: #000 !important;
+    --background-surface-higher: #000 !important;
+    --bg-overlay-2: #000 !important;
+    --background-mod-subtle: #000 !important;
+
+    /*White colors*/
+    --text-normal: #fff !important;
+}
+
+/*Disable borders*/
+* {
+    border-width: 0 !important;
+}
+
+/*Input*/
+[class^="channelTextArea"] {
+    --custom-chat-input-margin-bottom: 10px !important;
+}
+
+/*Active Now*/
+[class^="nowPlayingColumn"] * [class^="itemCard"] {
+    background: #000 !important;
+}
+
+/*gifs*/
+[aria-label="Expression Picker"] *:not([class^="soundButtonWrapper"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
+    background-color: #000 !important;
+}
+
+/*soundboard*/
+[class^="picker"] *:not([class^="soundButtonWrapper"] *):not([class^="upsellContainer"] *):not(svg) {
+    background-color: #000 !important;
+}
+
+/*Animation in voice channel*/
+.gradientBackground__11664 {
+    display: none;
+}
+
+/*User panel in DM*/
+.panel_c0bea0 {
+    background-color: #000 !important;
+}
+
+/*Dark profiles*/
+/*.custom-theme-background,
+.custom-theme-background > div {
+    background: #000 !important;
+}
+
+.custom-theme-background > div * {
+    color: #fff !important;
+}
+
+.custom-theme-background * circle {
+    display: none;
+}*/
