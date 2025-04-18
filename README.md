@@ -8,6 +8,9 @@
 
 ## Installation in Vencord
 
+> [!WARNING]
+> For the theme to work correctly, select the Onyx theme in your Discord appearance settings.
+
 1. Install [Vencord](https://vencord.dev/).  
 2. Go to Discord Settings > Themes.  
 3. Click **"Open Themes Folder"**.  
