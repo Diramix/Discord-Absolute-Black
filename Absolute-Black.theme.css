@@ -2,7 +2,7 @@
  * @name Absolute Black
  * @author Diramix
  * @description Absolute Black theme for Discord
- * @version 1.0.0
+ * @version 1.0.1
  * @invite ky6bcdy7KA
  * @authorId 710580442180485120
  * @source https://github.com/Diramix/Discord-Absolute-Black
@@ -60,15 +60,7 @@
 }
 
 /*Dark profiles*/
-/*.custom-theme-background,
-.custom-theme-background > div {
+.user-profile-sidebar,
+.user-profile-sidebar * [class^="overlay"] {
     background: #000 !important;
 }
-
-.custom-theme-background > div * {
-    color: #fff !important;
-}
-
-.custom-theme-background * circle {
-    display: none;
-}*/
