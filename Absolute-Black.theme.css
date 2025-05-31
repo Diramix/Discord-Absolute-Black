@@ -2,7 +2,6 @@
  * @name Absolute Black
  * @author Diramix
  * @description Absolute Black theme for Discord
- * @version 1.0.1
  * @invite ky6bcdy7KA
  * @authorId 710580442180485120
  * @source https://github.com/Diramix/Discord-Absolute-Black
@@ -63,4 +62,9 @@
 .user-profile-sidebar,
 .user-profile-sidebar * [class^="overlay"] {
     background: #000 !important;
+}
+
+/*Dark actions buttons in DM*/
+.user-profile-sidebar * [class^="overlay"] * button {
+    background: 0 !important;
 }
