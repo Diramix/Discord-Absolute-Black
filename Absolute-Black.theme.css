@@ -68,3 +68,8 @@
 .user-profile-sidebar * [class^="overlay"] * button {
     background: 0 !important;
 }
+
+/*Rounding nameplates*/
+[class*="containerQuestBarVisible"] {
+    border-radius: 10px !important;
+}
