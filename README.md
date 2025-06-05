@@ -14,9 +14,14 @@
 1. Install [Vencord](https://vencord.dev/).  
 2. Go to Discord Settings > Themes.  
 3. Click **"Open Themes Folder"**.  
-4. Download the theme file from the [releases](https://github.com/Diramix/Discord-Absolute-Black/releases/latest).  
+4. Download the theme file from the [code](https://github.com/Diramix/Discord-Absolute-Black/archive/refs/heads/main.zip).  
 5. Place the file into the opened folder.  
 6. Go back to Discord and enable the theme from the list.
+
+### Link to theme for Vencord
+```
+https://raw.githubusercontent.com/Diramix/Discord-Absolute-Black/refs/heads/main/Absolute-Black.theme.css
+```
 
 ## DONATE  
 If you like the theme and want to support its author, [**Welcome to Boosty!**](https://boosty.to/diramix)  
