@@ -1,4 +1,4 @@
-![image](https://github.com/user-attachments/assets/53f0b87a-866f-4c97-b4b0-22cfd696cb63)
+![image](https://github.com/user-attachments/assets/bfd15846-4c3b-47f8-8d54-698bca42d283)
 # Absolute Black — Very black theme for Discord
 
 ## Features
