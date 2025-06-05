@@ -5,6 +5,7 @@
 
 - Applies a completely black background.  
 - Disables element borders.
+- Rounded nameplate.
 
 ## Installation in Vencord
 
