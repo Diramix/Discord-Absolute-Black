@@ -39,7 +39,7 @@
 }
 
 /*Picker's*/
-[aria-label="Expression Picker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
+[class^="drawerSizingWrapper"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
 [class*="isBurstReactionPicker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
     background-color: #000 !important;
 }
