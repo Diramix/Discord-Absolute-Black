@@ -24,7 +24,7 @@
 }
 
 /*Disable borders*/
-* {
+#app-mount * [class^="app"] *:not([class^="messagesWrapper"] *) {
     border-width: 0 !important;
 }
 
@@ -38,18 +38,14 @@
     background: #000 !important;
 }
 
-/*gifs*/
-[aria-label="Expression Picker"] *:not([class^="soundButtonWrapper"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
-    background-color: #000 !important;
-}
-
-/*soundboard*/
-[class^="picker"] *:not([class^="soundButtonWrapper"] *):not([class^="upsellContainer"] *):not(svg) {
+/*Picker's*/
+[aria-label="Expression Picker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
+[class*="isBurstReactionPicker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
     background-color: #000 !important;
 }
 
 /*Animation in voice channel*/
-.gradientBackground__11664 {
+[class^="callContainer"] * [class^="gradientBackground"] {
     display: none;
 }
 
