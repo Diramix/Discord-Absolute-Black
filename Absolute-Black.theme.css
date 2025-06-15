@@ -40,7 +40,8 @@
 
 /*Picker's*/
 [class^="drawerSizingWrapper"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
-[class*="isBurstReactionPicker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
+[class*="isBurstReactionPicker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
+[id="emoji-picker-tab-panel"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
     background-color: #000 !important;
 }
 
