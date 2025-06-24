@@ -46,7 +46,7 @@
 }
 
 /*Animation in voice channel*/
-[class^="callContainer"] * [class^="gradientBackground"] {
+[class^="callContainer"] * [class^="pulseGradient"] {
     display: none;
 }
 
