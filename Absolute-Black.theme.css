@@ -18,6 +18,8 @@
     --background-surface-higher: #000 !important;
     --bg-overlay-2: #000 !important;
     --background-mod-subtle: #000 !important;
+    --background-base-lower: #000 !important;
+    --chat-background-default: #000 !important;
 
     /*White colors*/
     --text-normal: #fff !important;
