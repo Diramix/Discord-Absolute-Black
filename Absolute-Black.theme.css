@@ -20,6 +20,9 @@
     --background-mod-subtle: #000 !important;
     --background-base-lower: #000 !important;
     --chat-background-default: #000 !important;
+    --background-mod-faint: #000 !important;
+    --background-base-low: #000 !important;
+    --background-gradient-highest: #000 !important;
 
     /*White colors*/
     --text-normal: #fff !important;
