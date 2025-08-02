@@ -21,7 +21,7 @@
     --background-base-lower: #000 !important;
     --chat-background-default: #000 !important;
     --background-mod-faint: #000 !important;
-    --background-base-low: #000 !important;
+    /*--background-base-low: #000 !important;*/
     --background-gradient-highest: #000 !important;
 
     /*White colors*/
@@ -58,6 +58,10 @@
 /*User panel in DM*/
 .panel_c0bea0 {
     background-color: #000 !important;
+}
+
+[class*="showMoreButton"] {
+    background: 0;
 }
 
 /*Dark profiles*/
