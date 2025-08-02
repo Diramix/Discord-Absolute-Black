@@ -8,7 +8,7 @@
 */
 
 /*Black in variables*/
-:root {
+html * {
     /*Black colors*/
     --background-primary: #000 !important;
     --bg-surface-overlay: #000 !important;
