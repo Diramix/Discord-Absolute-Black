@@ -15,7 +15,7 @@ html * {
     --bg-overlay-chat: #000 !important;
     --bg-overlay-floating: #000 !important;
     --background-surface-high: #000 !important;
-    --background-surface-higher: #000 !important;
+    /*--background-surface-higher: #000 !important;*/
     --bg-overlay-2: #000 !important;
     --background-mod-subtle: #000 !important;
     --background-base-lower: #000 !important;
@@ -55,12 +55,12 @@ html * {
     display: none;
 }
 
-/*User panel in DM*/
-.panel_c0bea0 {
+/*User profile sidebar in DM*/
+.user-profile-sidebar {
     background-color: #000 !important;
 }
 
-[class*="showMoreButton"] {
+.user-profile-sidebar * [class*="showMoreButton"] {
     background: 0;
 }
 
