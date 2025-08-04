@@ -10,19 +10,18 @@
 /*Black in variables*/
 html * {
     /*Black colors*/
+    --background-base-lower: #000 !important;
+    --background-gradient-lower: #000 !important;
     --background-primary: #000 !important;
     --bg-surface-overlay: #000 !important;
     --bg-overlay-chat: #000 !important;
     --bg-overlay-floating: #000 !important;
-    --background-surface-high: #000 !important;
-    /*--background-surface-higher: #000 !important;*/
     --bg-overlay-2: #000 !important;
-    --background-mod-subtle: #000 !important;
-    --background-base-lower: #000 !important;
     --chat-background-default: #000 !important;
     --background-mod-faint: #000 !important;
-    /*--background-base-low: #000 !important;*/
     --background-gradient-highest: #000 !important;
+    --background-surface-higher: #000 !important;
+    --custom-channel-members-bg: #000 !important;
 
     /*White colors*/
     --text-normal: #fff !important;
@@ -73,6 +72,11 @@ html * {
 /*Dark actions buttons in DM*/
 .user-profile-sidebar * [class^="overlay"] * button {
     background: 0 !important;
+}
+
+/*Popouts*/
+[class*="popout"] * {
+    --background-base-lower: none !important;
 }
 
 /*Rounding nameplates*/
