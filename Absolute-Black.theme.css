@@ -84,3 +84,9 @@ html * {
 [class*="containerQuestBarVisible"] {
     border-radius: 10px !important;
 }
+
+/*Умный человек в очках скачать обои в высоком качестве без СМС и регистрации*/
+[src*="/assets/d8680b1c1576ecc8.svg"] {
+    content: url("https://i.redd.it/y824jq8jh8cf1.png");
+    background-image: url("https://i.redd.it/y824jq8jh8cf1.png");
+}
