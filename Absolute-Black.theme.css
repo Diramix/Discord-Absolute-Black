@@ -1,6 +1,7 @@
 /**
  * @name Absolute Black
  * @author Diramix
+ * @website https://diram1x.ru/
  * @description Absolute Black theme for Discord
  * @invite ky6bcdy7KA
  * @authorId 710580442180485120
@@ -9,80 +10,11 @@
 
 /*Black in variables*/
 html * {
-    /*Black colors*/
     --background-base-lower: #000 !important;
-    --background-gradient-lower: #000 !important;
-    --background-primary: #000 !important;
-    --bg-surface-overlay: #000 !important;
-    --bg-overlay-chat: #000 !important;
-    --bg-overlay-floating: #000 !important;
-    --bg-overlay-2: #000 !important;
-    --chat-background-default: #000 !important;
-    --background-mod-faint: #000 !important;
-    --background-gradient-highest: #000 !important;
-    --background-surface-higher: #000 !important;
+    --background-base-low: #000 !important;
     --custom-channel-members-bg: #000 !important;
-
-    /*White colors*/
-    --text-normal: #fff !important;
-}
-
-/*Disable borders*/
-#app-mount * [class^="app"] *:not([class^="messagesWrapper"] *) {
-    border-width: 0 !important;
-}
-
-/*Input*/
-[class^="channelTextArea"] {
-    --custom-chat-input-margin-bottom: 10px !important;
-}
-
-/*Active Now*/
-[class^="nowPlayingColumn"] * [class^="itemCard"] {
-    background: #000 !important;
-}
-
-/*Picker's*/
-[class^="drawerSizingWrapper"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
-[class*="isBurstReactionPicker"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg),
-[id="emoji-picker-tab-panel"] *:not([class^="badgeLabel"] *):not([class^="upsellContainer"] *):not([class^="result"] *):not(svg) {
-    background-color: #000 !important;
-}
-
-/*Animation in voice channel*/
-[class^="callContainer"] * [class^="pulseGradient"] {
-    display: none;
-}
-
-/*User profile sidebar in DM*/
-.user-profile-sidebar {
-    background-color: #000 !important;
-}
-
-.user-profile-sidebar * [class*="showMoreButton"] {
-    background: 0;
-}
-
-/*Dark profiles*/
-.user-profile-sidebar,
-.user-profile-sidebar * [class^="overlay"] {
-    background: #000 !important;
-}
-
-/*Dark actions buttons in DM*/
-.user-profile-sidebar * [class^="overlay"] * button {
-    background: 0 !important;
-}
-
-/*Popouts*/
-[id*="popout"][class*="theme-light"] * {
-    --background-base-lower: #fff !important;
-    --background-surface-higher: #fff !important;
-}
-
-/*Rounding nameplates*/
-[class*="containerQuestBarVisible"] {
-    border-radius: 10px !important;
+    --chat-background-default: #090909 !important;
+    --background-surface-high: #090909 !important;
 }
 
 /*Умный человек в очках скачать обои в высоком качестве без СМС и регистрации*/
