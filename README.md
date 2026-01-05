@@ -4,9 +4,7 @@
 
 ## Features
 
-- Applies a completely black background.  
-- Disables element borders.
-- Rounded nameplate.
+- Applies a completely black background.
 
 ## Installation in Vencord
 
