@@ -1,5 +1,5 @@
 /**
- * @name Absolute Black
+ * @name Absolute Black v2.0.1
  * @author Diramix
  * @website https://diram1x.ru/
  * @description Absolute Black theme for Discord
@@ -14,7 +14,7 @@ html * {
     --background-base-low: #000 !important;
     --custom-channel-members-bg: #000 !important;
     --chat-background-default: #090909 !important;
-    --background-surface-high: #090909 !important;
+    /* --background-surface-high: #090909 !important; */
 }
 
 /*Умный человек в очках скачать обои в высоком качестве без СМС и регистрации*/
