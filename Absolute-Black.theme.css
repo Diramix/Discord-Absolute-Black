@@ -1,5 +1,5 @@
 /**
- * @name Absolute Black v2.0.1
+ * @name Absolute Black v1.1.0
  * @author Diramix
  * @website https://diram1x.ru/
  * @description Absolute Black theme for Discord
@@ -13,8 +13,33 @@ html * {
     --background-base-lower: #000 !important;
     --background-base-low: #000 !important;
     --custom-channel-members-bg: #000 !important;
-    --chat-background-default: #090909 !important;
-    /* --background-surface-high: #090909 !important; */
+    --chat-background-default: #000 !important;
+    --background-gradient-highest: #000 !important;
+    --background-mod-muted: #000 !important;
+    --background-surface-high: #000 !important;
+    --app-frame-border: transparent !important;
+    --border-subtle: transparent !important;
+    --border-muted: transparent !important;
+}
+
+/*Animation in voice channel*/
+[class^="callContainer"] * [class^="pulseGradient"] {
+    display: none;
+}
+
+/*User profile sidebar in DM*/
+.user-profile-sidebar {
+    background-color: #000 !important;
+}
+
+.user-profile-sidebar * [class*="showMoreButton"] {
+    background: none;
+}
+
+/*Dark profiles*/
+.user-profile-sidebar,
+.user-profile-sidebar * [class^="overlay"] {
+    background: #000 !important;
 }
 
 /*Умный человек в очках скачать обои в высоком качестве без СМС и регистрации*/
