@@ -1,10 +1,13 @@
-![theme](https://github.com/user-attachments/assets/a07054f0-1417-4111-8990-b060e67cd746)
-![DM](https://github.com/user-attachments/assets/78ac486f-c15d-4a60-aa2e-b8048e1b0605)
+![theme](https://github.com/user-attachments/assets/19416bcf-29b7-4bf3-9d39-70d92c9a5249)
+![DM](https://github.com/user-attachments/assets/e1204922-2075-48df-8c28-fff520efe4be)
+![Server](https://github.com/user-attachments/assets/dfd16ef6-602f-4827-991a-69fbd5625fed)
 # Absolute Black — Very black theme for Discord
 
 ## Features
 
 - Applies a completely black background.
+- Disables element borders.
+- Rounded nameplate.
 
 ## Installation in Vencord
 
